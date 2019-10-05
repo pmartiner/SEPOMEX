@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+select.browser-default.validate.invalid {
+  border: 2px solid #f44336;
+}
+
+.input-field select.browser-default {
+  margin-top: 8px;
+}
+
+.input-field select.browser-default ~ .helper-text.invalid {
+  text-align: left;
+  color: #f44336;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  position: relative;
+  min-height: 18px;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.results {
+  min-height: 100vh;
+  background-color: #d6f0e4;
+}
+
+.margin-text {
+  padding-top: 0.5em;
+}
+
+article.content {
+  min-height: 70vh;
+}
+
+#res {
+  padding: 1em;
+  color: #4b8a74;
+}
+
+#res ~ div {
+  text-align: justify;
+}
